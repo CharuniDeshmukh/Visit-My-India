@@ -1,0 +1,62 @@
+.states {
+    padding: 1.1rem 2.5rem;
+    background-color: bisque;
+    border-right: 2px solid black;
+}
+
+h2 {
+    margin: 6px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.desc {
+    padding: 1.1rem 2.5rem;
+}
+
+.state-wise {
+    height: 30rem;
+    width: 55rem;
+}
+
+@media (max-width: 500px) {
+    
+    .Contain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .states {
+        margin: 2px;
+        padding: 10px;
+        border: none;
+    }
+    
+    .state-wise {
+        height: 15rem;
+        width: 92vw;
+        border: 2px solid black;
+    }
+
+    .desc {
+        margin: 1rem 2vw;
+        padding: 0rem 2vw;
+        text-align: justify;
+    }
+}
